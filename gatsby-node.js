@@ -13,3 +13,32 @@ module.exports.onCreateNode = ({ node, actions }) => {
         })
     }
 }
+
+module.exports.createPages = async ({ graphql, actions }) => {
+    const { createPage } = actions
+    const workTemplate = path.resolve('./src/templates/work-single.js')
+
+    const res = await graphql(`
+        query {
+            allMarkdownRemark {
+                edges {
+                    node {
+                        fields {
+                            slug
+                        }
+                    }
+                }
+            }
+        }
+    `)
+
+    res.data.allMarkdownRemark.edges.forEach((edge) => {
+        createPage({
+            component: workTemplate,
+            path: `/work/${edge.node.fields.slug}`,
+            context: {
+                slug: edge.node.fields.slug
+            }
+        })
+    })
+}
