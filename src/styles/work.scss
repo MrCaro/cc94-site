@@ -1,0 +1,20 @@
+.work-category-wrapper {
+    @apply flex flex-wrap items-center justify-around;
+
+    p {
+        width: 19ch;
+    }
+}
+
+div.work-category {
+    @apply absolute flex justify-center items-center;
+    background-image: var(--primary-gradient);
+    box-shadow: var(--primary-gradient-shadow);
+    -webkit-box-shadow: var(--primary-gradient-shadow);
+    top: -1rem;
+    right: -1rem;
+
+    span {
+        @apply font-display font-bold text-sm text-accent;
+    }
+}

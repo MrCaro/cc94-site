@@ -1,0 +1,13 @@
+footer {
+    .neumorphism-circle {
+        padding: 8px;
+    }
+
+    .neumorphism-circle:hover { 
+        background-image: var(--neumorphism-hover);
+    }
+
+    a:nth-child(even) {
+        @apply mx-10;
+    }
+}
