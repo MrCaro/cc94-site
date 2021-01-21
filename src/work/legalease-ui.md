@@ -9,4 +9,16 @@ icon: "/static/0258a64d0e5adf6a86490bfcfa7c9be3/ui-bulb1.png"
 
 ADOBE XD
 <br><br>
-Created a full site redesign on Adobe XD before coding this site for client.
+Full site redesign on Adobe XD. 
+<br><br>
+
+![mockups for legalease](../images/legalease-ui-mockup@2.2x.png)
+<br><br>
+![mockups for legalease](../images/legalease-ui-mockup-1@2x.png)
+<br><br>
+![mockups for legalease](../images/legalease-ui-mockup-2@2.2x.png)
+<br><br>
+![mockups for legalease](../images/legalease-ui-mockup-3@2x.png)
+<br>
+
+- - -

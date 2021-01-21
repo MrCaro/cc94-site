@@ -69,4 +69,20 @@ div.work-category {
             transform: translateX(0);
         }
     }
+
+    .gatsby-resp-image-wrapper {
+        img {
+            transition: all 1s ease-in-out !important;
+            -webkit-transition: all 1s ease-in-out !important;
+            -moz-transition: all 1s ease-in-out !important;
+            -o-transition: all 1s ease-in-out !important;
+            filter: none;
+            -webkit-filter: none;
+        }
+
+        img:hover {
+            filter: hue-rotate(45deg);
+            -webkit-filter: hue-rotate(45deg);
+        }
+    }
 }

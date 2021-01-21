@@ -28,6 +28,10 @@ body,
     height: 100%;
 }
 
+main {
+    @apply mb-32;
+}
+
 body {
     @apply bg-primary font-body text-secondary font-thin;
     overflow-x: hidden;

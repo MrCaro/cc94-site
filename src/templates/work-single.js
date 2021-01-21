@@ -20,7 +20,7 @@ query ($slug: String!) {
 const WorkSingle = (props) => {
     return (
         <Layout>
-            <main className="mb-32">
+            <main>
                 <h1>
                     {props.data.markdownRemark.frontmatter.title}
                 </h1>
