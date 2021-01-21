@@ -66,8 +66,7 @@ h3 {
         "footer     footer";
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 50px auto 50px;
-    // grid-gap: 1.5em;
-    height: 100%;
+    min-height: 100%;
 }
 
 header {
@@ -134,6 +133,8 @@ footer {
     height: var(--home-circle-left-width);
     left: calc(var(--home-circle-width) * -1);
     right: 0;
+    box-shadow: var(--primary-gradient-shadow);
+    -webkit-box-shadow: var(--primary-gradient-shadow);
 }
 
 .circle-home-right {
@@ -142,6 +143,8 @@ footer {
     height: var(--home-circle-right-width);
     left: calc(var(--home-circle-width));
     right: 0;
+    box-shadow: var(--primary-gradient-shadow);
+    -webkit-box-shadow: var(--primary-gradient-shadow);
 }
 
 .cta-neumorphism {

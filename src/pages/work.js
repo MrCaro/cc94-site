@@ -4,10 +4,6 @@ import { Link, graphql, useStaticQuery } from 'gatsby'
 import Layout from '../components/layout'
 import '../styles/work.scss' 
 
-import devCloud from '../images/dev-cloud1.png'
-import uiBulb from '../images/ui-bulb1.png'
-import devJoystick from '../images/dev-joystick1.png'
-
 const WorkPage = () => {
     const data = useStaticQuery(graphql`
         query {
@@ -18,6 +14,10 @@ const WorkPage = () => {
                             title
                             date
                             category
+                            icon
+                        }
+                        fields {
+                            slug
                         }
                     }
                 }
@@ -25,13 +25,13 @@ const WorkPage = () => {
         }
     `)
 
-    console.log(data)
-
     return (
         <Layout>
             <main>
                 <h1>work</h1>
-                <div className="work-category-wrapper">
+                <div 
+                    className="work-category-wrapper"
+                >
                     {data.allMarkdownRemark.edges.map((edge) => {
                         return (
                             <div className="mx-4 my-6 text-center relative">
@@ -41,13 +41,17 @@ const WorkPage = () => {
                                     </span>
                                 </div>
                                 <img 
-                                    src={devCloud} 
+                                    src={edge.node.frontmatter.icon} 
                                     className="neumorphism-square mx-auto mb-8"
                                     style={{borderRadius: '70px'}}
                                     alt=""
                                 />
-                                <p>{edge.node.frontmatter.title}</p>
-                                <p>    
+                                <p className="underline m-auto">
+                                    <Link to={`/work/${edge.node.fields.slug}`}>
+                                        {edge.node.frontmatter.title}
+                                    </Link>
+                                </p>
+                                <p className="m-auto">    
                                     <time dateTime={edge.node.frontmatter.date}>
                                         {edge.node.frontmatter.date}
                                     </time>

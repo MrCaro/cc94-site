@@ -1,11 +1,12 @@
 ---
 title: "LegalEase"
-date: "2020-08-01"
+date: "2020-08"
 category: "ui"
+icon: "/static/0258a64d0e5adf6a86490bfcfa7c9be3/ui-bulb1.png"
 ---
 
-this is the ui project for LE
+## WEB DESIGN
 
-## LegalEase h2
-
-1. adobe xd
+ADOBE XD
+<br><br>
+Created a full site redesign on Adobe XD before coding this site for client.
