@@ -12,4 +12,6 @@ Created a landing page for Hooten Young with Twig templates.
 <br><br>
 **[visit page](https://www.hootenyoung.com/product/american-whiskey/)**
 
-![hooten young](../images/hooten-young-lp.png)
+![hooten young](../images/hooten-young-lp-1.png)
+
+- - -

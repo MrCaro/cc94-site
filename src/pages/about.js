@@ -10,45 +10,21 @@ const AboutPage = () => {
         <Layout>
             <main>
                 <h1>about</h1>  
-                <div className="flex flex-wrap items-center md:mx-12">
-                    <div className="md:flex-1">
-                        <p>
-                            My name is Carlos and I am a professional Front-End developer with an interest in UI Design and Game Development.
-                            Currently living in Orlando, Fl.
-                        </p>
-                        <br/>
-                        <p className="text-xs mb-4">
-                            Education 
-                            <br/>
-                            <span className="md:ml-4">
-                                BS Computer Science (Cum Laude) Spring 2018 St. Thomas University, Fl.
-                            </span>
-                            <br/>
-                            <span className="md:ml-4">
-                                MS Computer Science starting Fall 2021 at UCF, Fl.
-                            </span>
-                        </p>
-                        <p className="text-xs mb-4">
-                            Hobbies
-                            <br/>
-                            <span className="md:ml-4">
-                                soccer, video games, reading psychological thrillers (favorite author John Katzenbach).
-                            </span>
-                        </p>
-                        <Link to="/contact">
-                            <p className="neumorphism-square cta-neumorphism relative">
-                                contact me
-                            </p>
-                        </Link>
-                    </div>
-                    <div className="md:flex-1 md:text-right md:my-0 my-32 mx-auto">
+                <div 
+                    className="flex flex-col flex-wrap items-center md:mx-12"
+                >
+                    <div 
+                        className="w-full md:flex-1 md:text-right md:my-0 my-12"
+                    >
                         <img 
                             src={iconFingerPrint} 
-                            className="neumorphism-square md:ml-auto mb-8 p-10"
+                            className="neumorphism-square md:mr-0 mx-auto mb-8 p-10"
                             style={{borderRadius: '70px'}}
                             alt=""
                         />
-                        <div className="flex items-center md:justify-end justify-center">
+                        <div 
+                            className="flex items-center md:justify-end justify-center"
+                        >
                             <p className="mr-8 text-xs">
                                 find me on
                             </p>
@@ -63,6 +39,48 @@ const AboutPage = () => {
                                 />
                             </a>
                         </div>
+                    </div>
+                    <div className="md:flex-1">
+                        <h2 className="m-0">
+                            name
+                        </h2>
+                        <p className="text-sm mt-2">
+                            Carlos "Charlie" Caro
+                        </p>
+                        <hr className="my-4"/>
+                        <h2 className="m-0">
+                            bio
+                        </h2>
+                        <p className="text-sm mt-2">
+                            I am a professional Front-End Developer with an interest in UI Design and Game Development.
+                            I am Currently living in Orlando, Fl. where I work for 321 The Agency as a full time dev. 
+                            While not coding or catching up with new web dev trends you can find me playing video games or reading a
+                            good book about psychological thrillers. 
+                        </p>
+                        <hr className="my-4"/>
+                        <h2 className="m-0">
+                            education
+                        </h2>
+                        <p className="text-sm mt-2">
+                            MS Computer Science starting Fall 2021 - UCF, Fl.
+                        </p>
+                        <p className="text-sm mt-2">
+                            BS Computer Science (Cum Laude) Spring 2018 - St. Thomas University, Fl.
+                        </p>
+                        <hr className="my-4"/>
+                        <h2 className="m-0">
+                            hobbies / fandom
+                        </h2>
+                        <p className="text-sm mt-2">
+                            Soccer, video games, basketball, work out, theme parks, star wars, anime, dc comics, dragon ball z.
+                        </p>
+                        <Link to="/contact">
+                            <p 
+                                className="neumorphism-square cta-neumorphism relative"
+                            >
+                                contact me
+                            </p>
+                        </Link>
                     </div>
                 </div>
             </main>
