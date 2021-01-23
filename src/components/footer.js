@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'gatsby'
 
 import iconGit from '../images/icon-github.png'
 import iconLinkedIn from '../images/icon-linkedin.png'
@@ -22,13 +23,14 @@ const Footer = () => {
                 rel="noopener">
                 <img src={iconLinkedIn} />
             </a>
-            <a  
+            <Link
                 className="neumorphism-circle"
-                href="mailto:carocarlosj@gmail.com" 
+                to="/contact" 
                 target="_blank"
-                rel="noopener">
+                rel="noopener"
+            >
                 <img src={iconMail} />
-            </a>
+            </Link>
         </footer>
     )
 }
