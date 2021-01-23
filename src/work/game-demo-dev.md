@@ -1,6 +1,6 @@
 ---
 title: "Game Combat Demo"
-date: "2020-12"
+date: "2020-12-01"
 category: "dev"
 icon: "/static/2ab89f53b61524550b086ffeeb9434b6/dev-joystick1.png"
 ---

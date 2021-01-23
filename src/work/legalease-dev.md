@@ -1,6 +1,6 @@
 ---
 title: "LegalEase"
-date: "2020-08"
+date: "2020-08-01"
 category: "dev"
 icon: "/static/dfbb7b4ccccf7d2328725f311300e909/dev-cloud1.png"
 ---

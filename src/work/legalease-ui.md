@@ -1,6 +1,6 @@
 ---
 title: "LegalEase"
-date: "2020-08"
+date: "2020-08-01"
 category: "ui"
 icon: "/static/0258a64d0e5adf6a86490bfcfa7c9be3/ui-bulb1.png"
 ---

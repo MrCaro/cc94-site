@@ -1,6 +1,6 @@
 ---
 title: "Travel Agency"
-date: "2019-12"
+date: "2019-12-01"
 category: "dev"
 icon: "/static/dfbb7b4ccccf7d2328725f311300e909/dev-cloud1.png"
 ---
