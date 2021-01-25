@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "license": "0BSD",
   "scripts": {
+    "deploy": "gatsby build && gh-pages -d public -b gh-pages",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
@@ -18,6 +19,7 @@
     "gatsby": "^2.26.1",
     "gatsby-plugin-playground": "^1.0.6",
     "gatsby-plugin-postcss": "^3.5.0",
+    "gatsby-plugin-recaptcha": "^1.0.5",
     "gatsby-plugin-sass": "^3.0.0",
     "gatsby-plugin-sharp": "^2.13.1",
     "gatsby-plugin-web-font-loader": "^1.0.4",
@@ -29,10 +31,12 @@
     "postcss": "^7.0.35",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
+    "react-recaptcha": "^2.3.10",
     "sass": "^1.32.4",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2"
   },
   "devDependencies": {
+    "gh-pages": "^3.1.0",
     "prettier": "2.2.1"
   },
   "repository": {

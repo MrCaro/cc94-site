@@ -47,7 +47,7 @@ const WorkPage = () => {
                                     alt=""
                                 />
                                 <p className="underline m-auto">
-                                    <Link to={`/work/${edge.node.fields.slug}`}>
+                                    <Link to={`/work/${edge.node.fields.slug}#top`}>
                                         {edge.node.frontmatter.title}
                                     </Link>
                                 </p>

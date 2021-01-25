@@ -14,7 +14,7 @@ const AboutPage = () => {
                     className="flex flex-col flex-wrap items-center md:mx-12"
                 >
                     <div 
-                        className="w-full md:flex-1 md:text-right md:my-0 my-12"
+                        className="w-full md:flex-1 md:text-right md:my-0 my-12 hidden"
                     >
                         <img 
                             src={iconFingerPrint} 
@@ -76,7 +76,7 @@ const AboutPage = () => {
                         </p>
                         <Link to="/contact">
                             <p 
-                                className="neumorphism-square cta-neumorphism relative"
+                                className="neumorphism-square cta-neumorphism relative uppercase"
                             >
                                 contact me
                             </p>

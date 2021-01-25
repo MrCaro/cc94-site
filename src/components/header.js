@@ -1,8 +1,17 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { Link } from 'gatsby'
 
 const Header = () => {
     const [open, setOpen] = useState(false);
+
+    useEffect(() => {
+        if(open) {
+            document.body.style.overflowY = 'hidden';
+        }  else {
+            document.body.style.overflowY = 'auto';
+        }  
+    });
+
 
     return (
         <>

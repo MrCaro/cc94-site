@@ -67,7 +67,7 @@ nav.open span:nth-child(2) {
 }
 
 .nav-wrapper {
-    @apply absolute font-display text-xl font-bold uppercase bg-primary text-left flex items-center justify-center cursor-auto;
+    @apply absolute font-display text-xl font-bold uppercase bg-primary text-left flex items-center justify-center cursor-auto -mr-4;
     top: -1.5rem;
     right: 0;
     height: 100vh;

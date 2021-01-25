@@ -41,6 +41,14 @@ module.exports = {
           }
         ]
       }
-    }
+    },
+    // {
+    //   resolve: `gatsby-plugin-recaptcha`,
+    //   options: {
+    //      async: false,
+    //      defer: false,
+    //      args: `?onload=onloadCallback&render=6LfITzgaAAAAAHwXUk7j0kbvWP6LE1EFBN7aNA6p`,
+    //   },
+    // },
   ],
 }

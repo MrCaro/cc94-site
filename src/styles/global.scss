@@ -21,6 +21,10 @@
     box-sizing: inherit;
 }
 
+html {
+    overflow-x: hidden;
+}
+
 html,
 body,
 #___gatsby,
@@ -155,19 +159,19 @@ footer {
     @apply text-accent font-bold mt-16 py-4 px-8;
 }
 
-.cta-neumorphism::after {
-    content: "";
-    display: inline-block;
-    border-top: 1px solid #F52E5C;
-    margin-left: 3rem;
-    width: 5rem;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 2rem;
-    transform: translateY(50%);
-    -webkit-transform: translateY(50%);
-}
+// .cta-neumorphism::after {
+//     content: "";
+//     display: inline-block;
+//     border-top: 1px solid #F52E5C;
+//     margin-left: 3rem;
+//     width: 5rem;
+//     position: absolute;
+//     top: 0;
+//     bottom: 0;
+//     right: 2rem;
+//     transform: translateY(50%);
+//     -webkit-transform: translateY(50%);
+// }
 
 .cta-neumorphism:hover {
     background: var(--neumorphism-hover);

@@ -11,7 +11,7 @@ form {
         }
 
         &:nth-child(2) {
-            @apply text-secondary ml-8;
+            @apply text-secondary;
         }
     }
 }
@@ -26,7 +26,7 @@ label {
 
 input,
 textarea {
-    @apply bg-primary w-full py-4 pl-12 mb-8;
+    @apply bg-primary w-full py-4 mb-8;
     border: solid 1px #7174802e;
     border-radius: 10px;
     transition: all .5s ease-in-out;
