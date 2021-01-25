@@ -21,7 +21,7 @@ const ExperiencePage = () => {
                     </h3>
                     <hr/>
                     <h2>
-                        quick weight loss center / jr front end developer
+                        quick weight loss center / front end developer
                     </h2>
                     <h3 className="text-sm">
                         pompano beach, fl <br/>
@@ -31,7 +31,7 @@ const ExperiencePage = () => {
                     </h3>
                     <hr/>
                     <h2>
-                        agile element / jr front end developer
+                        agile element / front end developer
                     </h2>
                     <h3 className="text-sm">
                         fort lauderdale, fl <br/>
