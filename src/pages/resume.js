@@ -18,7 +18,7 @@ const ResumePage = () => {
                             skills
                         </h2>
                         <p className="text-sm mt-2 uppercase">
-                            html / tailwind css / Gatsby js / php / git
+                            html / tailwind css / Gatsby js / php / c++ / git
                         </p>
                         <p className="text-sm mt-2 uppercase">
                             adobe xd / photoshop / blender

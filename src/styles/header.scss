@@ -75,7 +75,7 @@ nav.open span:nth-child(2) {
     box-shadow: var(--reg-shadow);
     -webkit-box-shadow: var(--reg-shadow);
     -moz-box-shadow: var(--reg-shadow);
-    transition: transform 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
 
     ul {
         @apply ml-8;
@@ -93,5 +93,8 @@ nav.open span:nth-child(2) {
 }
 
  .nav-wrapper-hide {
-    transform: translateX(33rem);
+    // transform: translateX(33rem);
+    opacity: 0;
+    width: 0;
+    overflow-x: hidden;
  }
