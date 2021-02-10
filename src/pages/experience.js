@@ -1,6 +1,7 @@
 import React from 'react'
 
 import Layout from '../components/layout'
+import experienceData from '../data/experience.json'
 
 const ExperiencePage = () => {
     return (
@@ -10,35 +11,16 @@ const ExperiencePage = () => {
                     experience
                 </h1>
                 <div className="md:mx-12">
-                    <h2>
-                        321 the agency / front end developer
-                    </h2>
-                    <h3 className="text-sm">
-                        orlando, fl <br/>
-                        <date >
-                            nov 2019 - present
-                        </date>
-                    </h3>
-                    <hr/>
-                    <h2>
-                        quick weight loss center / front end developer
-                    </h2>
-                    <h3 className="text-sm">
-                        pompano beach, fl <br/>
-                        <date >
-                            march 2019 - october 2019
-                        </date>
-                    </h3>
-                    <hr/>
-                    <h2>
-                        agile element / front end developer
-                    </h2>
-                    <h3 className="text-sm">
-                        fort lauderdale, fl <br/>
-                        <date >
-                             oct 2018 - feb 2019
-                        </date>
-                    </h3>
+                {experienceData.map((experience, i) => (
+                    <section value={i} key={i}>
+                        <h2>{experience.company_tile}</h2>
+                        <h3 className="text-sm">
+                            {experience.location} <br/>
+                            <date>{experience.dates}</date>
+                        </h3>
+                        <hr/>
+                    </section>
+                ))}
                 </div>
             </main>
         </Layout>

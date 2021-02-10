@@ -1,0 +1,17 @@
+[
+    {
+        "company_tile" : "321 the agency / front end developer",
+        "location" : "orlando, fl",
+        "dates" : "nov 2019 - present"
+    },
+    {
+        "company_tile" : "quick weight loss center / front end developer",
+        "location" : "pompano beach, fl",
+        "dates" : "mar 2019 - oct 2019"
+    },
+    {
+        "company_tile" : "agile element / front end developer",
+        "location" : "fort lauderdale, fl",
+        "dates" : "oct 2018 - feb 2019"
+    }
+]
