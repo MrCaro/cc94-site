@@ -30,23 +30,15 @@ const WorkSingle = (props) => {
                         className="mb-4"
                     >
                     </div>
-                    <div
-                        className="mb-12"
-                    >
-                        <p
-                            className="text-sm"
-                        >
+                    <div className="mb-12">
+                        <p className="text-sm">
                             #{props.data.markdownRemark.frontmatter.category}
                         </p>
                     </div>
-                    <div 
-                        className=""
-                    >
+                    <div>
                         <Link to="/work">
                             <span></span>
-                            <span>
-                                back
-                            </span>
+                            <span>back</span>
                         </Link>
                     </div>
                 </div>
