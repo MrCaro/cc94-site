@@ -1,0 +1,18 @@
+[
+    {
+        "title" : "name",
+        "content" : "Carlos 'Charlie' Caro"
+    },
+    {
+        "title" : "bio",
+        "content" : "I am a professional Front-End Developer with an interest in UI Design and Game Development. I am Currently living in Orlando, Fl. where I work for 321 The Agency as a full time dev. While not coding or catching up with new web dev trends you can find me playing video games or reading a good book about psychological thrillers."
+    },
+    {
+        "title"  : "education",
+        "content" : "MS Computer Science starting Fall 2021 - UCF, Fl. | BS Computer Science (Cum Laude) Spring 2018 - St. Thomas University, Fl."  
+    },
+    {
+        "title" : "hobbies / fandom",
+        "content" : "Soccer (Chelsea FC), video games (Batman Arkham Series, Uncharted, God of War, Ratchet and Clank, Last of Us), Theme Parks (Island and Universal), Star Wars (Clone Wars animated series), Anime (Death Note), DC Comics (Killing Joke, Under the Red Hood), Dragon Ball Z."
+    }
+]
